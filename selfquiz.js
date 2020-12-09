@@ -4,7 +4,7 @@ var chalk = require('chalk');
 
 var score = 0;
 
-
+//initial greetings
 console.log(chalk.bgCyan("WELCOME!!"))
 var userName = readlineSync.question("What's your name? ");
 
